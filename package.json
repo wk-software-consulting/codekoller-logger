@@ -1,6 +1,6 @@
 {
   "name": "@williamkoller/codekoller-logger",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Code Koller Logger",
   "repository": {
     "url": "https://github.com/codekoller/codekoller-logger.git"
