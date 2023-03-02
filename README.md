@@ -1,5 +1,7 @@
 # CodeKoller Logger
 
+## For Projects NestJS
+
 ## Installation
 
 ```bash
@@ -12,12 +14,12 @@ npm i @williamkoller/codekoller-logger
 
 ```bash
 import { Module } from '@nestjs/common';
-import { CodekollerLoggerModule } from '@williamkoller/codekoller-logger';
+import { LoggerModule } from '@williamkoller/codekoller-logger';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
 @Module({
-  imports: [CodekollerLoggerModule],
+  imports: [LoggerModule],
   controllers: [AppController],
   providers: [AppService],
 })
@@ -28,11 +30,11 @@ export class AppModule {}
 
 ```bash
 import { Injectable } from '@nestjs/common';
-import { CodekollerLoggerService } from '@williamkoller/codekoller-logger';
+import { LoggerService } from '@williamkoller/codekoller-logger';
 
 @Injectable()
 export class AppService {
-  constructor(private readonly logger: CodekollerLoggerService) {}
+  constructor(private readonly logger: LoggerService) {}
   getHello(): string {
     this.logger.log('AppService', 'getHello');
     return 'Hello World!';

@@ -1,12 +1,17 @@
 {
   "name": "@williamkoller/codekoller-logger",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Code Koller Logger",
   "repository": {
     "url": "https://github.com/codekoller/codekoller-logger.git"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "keywords": [
+    "nestjs",
+    "nodejs",
+    "typescript"
+  ],
   "scripts": {
     "build": "rimraf dist && tsc",
     "prepublish": "npm run build",

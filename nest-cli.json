@@ -1,16 +1,5 @@
 {
-  "projects": {
-    "codekoller-logger": {
-      "type": "library",
-      "root": "libs/codekoller-logger",
-      "entryFile": "index",
-      "sourceRoot": "libs/codekoller-logger/src",
-      "compilerOptions": {
-        "tsConfigPath": "libs/codekoller-logger/tsconfig.lib.json"
-      }
-    }
-  },
-  "compilerOptions": {
-    "webpack": true
-  }
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src"
 }

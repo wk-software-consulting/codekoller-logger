@@ -8,7 +8,7 @@
     "declarationMap": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "rootDir": "./libs/codekoller-logger/src",
+    "rootDir": "src",
     "strict": true,
     "noImplicitAny": false,
     "strictNullChecks": false,
@@ -17,10 +17,10 @@
     "emitDecoratorMetadata": true,
     "baseUrl": "./",
     "paths": {
-      "@app/codekoller-logger": ["libs/codekoller-logger/src"],
-      "@app/codekoller-logger/*": ["libs/codekoller-logger/src/*"]
+      "@app/codekoller-logger": ["src"],
+      "@app/codekoller-logger/*": ["src/*"]
     }
   },
-  "include": ["libs/codekoller-logger/src/**/*"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "test", "**/*spec.ts"]
 }
