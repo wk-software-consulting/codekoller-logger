@@ -1,2 +1,2 @@
-export * from '@app/codekoller-logger/infra/logger/logger.module';
-export * from '@app/codekoller-logger/infra/logger/logger.service';
+export * from './infra/logger/logger.module';
+export * from './infra/logger/logger.service';
